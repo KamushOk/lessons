@@ -1,0 +1,50 @@
+/* RESET */
+
+@import url("reset.css");
+
+/* RESET */
+
+h1 {
+  color: blue;
+}
+
+.content li {
+  color: aqua;
+}
+
+#text_1 {
+  color: brown;
+}
+
+[class*="__color"] {
+  color: green;
+}
+
+.text_7,
+.text_8 {
+  color: orangered;
+}
+
+div .text_2 {
+  color: orange;
+}
+
+.section_3 ~ p {
+  color: greenyellow;
+}
+
+.terminology.terminology_2 {
+  color: blueviolet;
+}
+
+.section_1 > p {
+  color: olive;
+}
+
+.section_2 + p {
+  color: tomato;
+}
+
+.section_8 * {
+  color: chocolate;
+}
