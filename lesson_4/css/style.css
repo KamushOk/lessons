@@ -1,0 +1,90 @@
+/* RESET */
+@import url(reset.css);
+
+@font-face {
+  font-family: "Chillout Lounge Sans";
+  src: url("../fonts/ChilloutLoungeSans.woff2") format("woff2"),
+    url("../fonts/ChilloutLoungeSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Detoxify";
+  src: url("../fonts/DetoxifyRegular.woff2") format("woff2"),
+    url("../fonts/DetoxifyRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Chillout Lounge Sans";
+  font-size: 50px;
+  line-height: 4;
+  letter-spacing: 25px;
+  color: darkred;
+}
+
+h2 {
+  font-family: "Detoxify";
+  color: chocolate;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 25px;
+  line-height: 3;
+}
+
+.list {
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+  line-height: 2;
+}
+
+.text_1,
+.text_3 {
+  font-family: "Crimson Text", serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 2;
+  color: red;
+}
+
+.example_1 {
+  text-decoration: line-through;
+  color: rgba(0, 0, 1, 0.5);
+}
+
+.example_2 {
+  text-decoration: line-through;
+  color: rgba(0, 0, 1, 0.5);
+  /* text-transform: uppercase; */
+}
+
+.text_2,
+.text_4 {
+  font-family: "Mukta", sans-serif;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 25px;
+  word-spacing: 20px;
+  line-height: 2;
+  color: #6779;
+}
+
+.text_5 {
+  font-family: "Mukta", sans-serif;
+  font-weight: 800;
+  text-shadow: 3px 5px 3px #239, -5px -4px 2px red;
+}
+
+.list a {
+  text-decoration: underline;
+  color: darkred;
+}
