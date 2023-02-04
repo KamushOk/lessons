@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+[class*="__container"] {
+  max-width: 830px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: #212529;
+}
+
+.header__title {
+  max-width: 400px;
+}
+
+.text p {
+  margin-bottom: 38px;
+}
+
+.image {
+  margin-bottom: 80px;
+}
+
+.image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.article__title {
+  max-width: 605px;
+}
+
+.article__images {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.image_2 {
+  display: inline-block;
+  margin-right: 30px;
+}
