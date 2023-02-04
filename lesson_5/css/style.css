@@ -53,3 +53,9 @@ body {
   display: inline-block;
   margin-right: 30px;
 }
+
+.validator img{
+  display: block;
+  margin: 40px auto;
+  
+}
