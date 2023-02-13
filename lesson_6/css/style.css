@@ -50,7 +50,9 @@ body {
   margin-right: 30px;
   margin-bottom: 80px;
 }
-
+.practice{
+  margin-bottom: 75px;
+}
 .practice__title {
   text-transform: uppercase;
   text-align: center;
@@ -133,4 +135,9 @@ body {
   color: #fff;
   background-color: crimson;
   box-shadow: inset 5px 5px 10px 0 #222;
+}
+
+.vadidator{
+  text-align: center;
+  margin: 0 auto;
 }
