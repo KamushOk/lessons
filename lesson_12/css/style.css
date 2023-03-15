@@ -229,7 +229,7 @@ body {
 }
 
 .car__wheel-1:hover {
-  rotate: 180deg;
+  transform: rotate(360deg);
 }
 
 .car__wheel-2 {
@@ -245,5 +245,5 @@ body {
 }
 
 .car__wheel-2:hover {
-  rotate: 180deg;
+  transform: rotate(360deg);
 }
