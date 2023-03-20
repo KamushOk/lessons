@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 1.6; /* 40/25 */
+}
+
+[class*="__container"] {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6; /* 40/25 */
+  color: #212529;
+}
+
+/* =========================================================== */
+.page__topics {
+}
+.topics {
+  padding-bottom: 100px;
+}
+.topics__container {
+}
+.topics__body {
+  max-width: 1028px;
+  margin: 0 auto;
+  display: flex;
+}
+.topics__left-side {
+  flex: 0 0 38.910506%; /* 400/1028 */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.topics__title {
+}
+.topics__title:not(:last-child) {
+  margin-bottom: 30px;
+}
+.title {
+}
+.topics__menu {
+}
+.menu-topics {
+}
+.menu-topics__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-topics__item {
+}
+.menu-topics__link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 208%; /* 25/12 */
+  color: #495057;
+  position: relative;
+  padding-left: 19px;
+}
+
+.menu-topics__link::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.menu-topics__search {
+}
+.topics__content {
+  flex: 0 0 61.089494%;
+  padding-left: 23px;
+}
+.topics__items {
+}
+.topics__item {
+}
+.item-topic {
+}
+.item-topic__image {
+}
+.item-topic__body {
+}
+.item-topic__date {
+}
+.item-topic__title {
+}
+.item-topic__link-title {
+}
+.item-topic__text {
+}
+.item-topic__footer {
+}
+.item-topic__author {
+}
+.item-topic__like {
+}
+.topics__pages {
+}
+.pages-topics {
+}
+.pages-topics__list {
+}
+.pages-topics__item {
+}
+.pages-topics__link {
+}
+/* =========================================================== */
