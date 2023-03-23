@@ -129,12 +129,19 @@ body {
   color: #495057;
 }
 .item-article__title {
+  display: inline-block;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 25px;
   line-height: 1.6; /* 40/25 */
   color: #212529;
+  transition: color 0.5s;
 }
+
+.item-article__title:hover{
+  color:#a7482c;
+}
+
 .item-article__text {
   font-weight: 300;
   line-height: 1.66; /* 20/12 */
@@ -147,6 +154,11 @@ body {
   font-weight: 300;
   line-height: 1.66;
   color: #495057;
+  transition: text-decoration 0.5s;
+}
+
+.item-article__author:hover{
+  text-decoration: underline;
 }
 
 .article__more {
