@@ -200,7 +200,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 25px;
 }
+
+.item-achivment__image{
+  
+}
+
 .item-achivment__content {
   max-width: 335px;
   align-items: center;
