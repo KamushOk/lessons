@@ -260,6 +260,10 @@
   transition: all 0.5s;
 }
 
+.shipping__link:hover{
+  text-decoration: underline;
+}
+
 .shipping__addres {
   flex: 0 1 450px;
   display: flex;
