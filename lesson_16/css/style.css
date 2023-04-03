@@ -257,6 +257,7 @@
   font-size: 14px;
   line-height: 1.43;
   color: #0f6db1;
+  transition: all 0.5s;
 }
 
 .shipping__addres {
@@ -380,4 +381,9 @@
   line-height: 1.5; /* 21/14 */
   text-transform: uppercase;
   color: #828282;
+  transition: all 0.5s;
+}
+
+.next__link:hover{
+  color:#000;
 }
