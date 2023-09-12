@@ -136,13 +136,13 @@ body {
 }
 
 .page {
-  position: relative;
 }
 
 .page__container {
+  position: relative;
 }
 
-.page__image {
+.page__image img {
   position: absolute;
   height: 100%;
   width: 100%;
