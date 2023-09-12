@@ -1,0 +1,152 @@
+/* ============================================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Poppins', sans-serif;*/
+/* font-family: 'Volkhov', serif; */
+/* ============================================== */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #2d3134;
+  font-weight: 500;
+  line-height: 1.62; /* 26/16 */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: clip;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 96px;
+  z-index: 50;
+  background-color: rgb(25, 42, 60, 0.5);
+  border-bottom: 1px solid #f8fdff;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #f8fdff;
+  font-family: Volkhov;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+}
+
+.header__logo span {
+  color: #80a5b3;
+}
+
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 56px;
+  row-gap: 5px;
+}
+.menu__item {
+}
+.menu__link {
+  color: #f8fdff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  transition: color 0.5s;
+  position: relative;
+}
+
+.menu__link:hover {
+  color: #c6dde7;
+}
+
+.menu__link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f8fdff;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+.menu__item:hover .menu__link::before {
+  left: 0;
+  width: 100%;
+}
+
+.header__button {
+}
+.button {
+  display: flex;
+  padding: 16px 24px;
+  border: 1px solid #80a5b3;
+  border-radius: 40px;
+  background-color: #f8fdff;
+  margin-right: 8px;
+  color: #80a5b3;
+  font-family: Inter;
+  font-weight: 700;
+  column-gap: 8px;
+  line-height: 16px; /* 100% */
+  transition: all 0.5s;
+}
+
+.button:hover {
+  opacity: 0.8;
+  color: darkblue;
+}
+
+.button::after {
+  content: "";
+  background: url(../img/icon/01.svg) no-repeat right;
+  height: 20px;
+  width: 22px;
+}
+
+.page {
+  position: relative;
+}
+
+.page__container {
+}
+
+.page__image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
